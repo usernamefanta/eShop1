@@ -1,0 +1,21 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "description": "Your application description",
+  "main": "server.js",  // Assuming your Node.js server file is named server.js
+  "scripts": {
+    "start": "node server.js", // Adjust this based on your server file's name
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["angular", "nodejs", "express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1", // Adjust the version as needed
+    // Add other backend dependencies here
+  },
+  "devDependencies": {
+    "@angular/cli": "^12.0.0", // Adjust the version as needed
+    // Add other frontend dependencies here
+  }
+}
